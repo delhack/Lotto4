@@ -53,7 +53,7 @@ clear
 	
 echo -e '\e[92mRESEAU SS7 '
 echo ''
-echo 'Bienvenue sur le réseau SS7, ici vous pouvez interpréter et pirater n'importe quel système. Appuyez sur Y pour continuer la simulation'
+echo 'Bienvenue Appuyez sur Y pour continuer la simulation'
 read opcion
 case $opcion in 
 
