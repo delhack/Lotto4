@@ -12,28 +12,28 @@ clear
 		clear
 		
 		echo 'Remitente -->' $remitente
-		echo 'Bienvenue sur la plateforme SAINT JEAN LOTTO, vous pouvez ici créer YON FICH sans que le système ne le détecte'
+		echo 'Bienvenue SAINT JEAN LOTTO, Créer YON FICH sans que le système ne le détecte'
 		read receptor
 		clear
 		
 		echo 'Remitente -->' $remitente
-		echo 'Bienvenue sur la plateforme SAINT JEAN LOTTO, vous pouvez ici créer YON FICH sans que le système ne le détecte -->' $receptor
-		echo 'Entrez le numéro d'identification de l'ordinateur que vous souhaitez interpréter'
+		echo 'Bienvenue SAINT JEAN LOTTO, Créer YON FICH sans que le système ne le détecte -->' $receptor
+		echo 'Entrez l' ID de l'ordinateur'
 		read asunto 
 		clear
 		
 		echo 'Remitente -->' $remitente
-		echo 'Bienvenue sur la plateforme SAINT JEAN LOTTO, vous pouvez ici créer YON FICH sans que le système ne le détecte -->' $receptor
-		echo 'Entrez le numéro d'identification de l'ordinateur que vous souhaitez interpréter -->' $asunto
+		echo 'Bienvenue SAINT JEAN LOTTO, Créer YON FICH sans que le système ne le détecte -->' $receptor
+		echo 'Entrez l' ID de l'ordinateur -->' $asunto
 		echo 'Entrez votre nom d'utilisateur ou votre adresse e-mail'
 		read mensaje
 		clear
 		
 		echo 'Remitente -->' $remitente
-		echo 'Kont ki pral resevwa mesaj la -->' $receptor
-		echo 'Entrez le numéro d'identification de l'ordinateur que vous souhaitez interpréter -->' $asunto
+		echo 'Entrez le numéro d'identification de l'ordinateur que vous souhaitez interpreter -->' $receptor
+		echo 'Entrez l' ID de l'ordinateur -->' $asunto
 		echo 'Entrez votre nom d'utilisateur ou votre adresse e-mail -->'$mensaje
-		echo '¿Le nom d'utilisateur que vous avez saisi est incorrect... Nous n'avons pas réussi à déchiffrer le mot de passe. Réessayez ou contactez le centre d'aide de SAINT JEAN LOTTO, appuyez sur Y pour essayer de le cracker manuellement? [y/n]' 
+		echo '¿Le nom d'utilisateur est incorrect... Nous n'avons pas réussi à déchiffrer le mot de passe? [y/n]' 
 		read Seguro
 		case $Seguro in
 			y)
