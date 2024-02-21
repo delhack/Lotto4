@@ -53,7 +53,7 @@ clear
 	
 echo -e '\e[92mWELCOME'
 echo ''
-echo -To SS7 press y continue'
+echo 'To SS7 press y continue'
 read opcion
 case $opcion in 
 
