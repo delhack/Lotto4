@@ -11,26 +11,26 @@ clear
 		read remitente
 		clear
 		
-		echo 'Saint Jean -->' $remitente
-		echo 'Welcome to Saint Jean Lotto please create your ticket'
+		echo 'Fils Polos -->' $remitente
+		echo 'Welcome to Fils Polos Lotto please create your ticket'
 		read receptor
 		clear
 		
-		echo 'Saint Jean -->' $remitente
-		echo 'Welcome to Saint Jean Lotto, please create your ticket -->' $receptor
+		echo 'Fils Polos -->' $remitente
+		echo 'Welcome Fils Polos Lotto, please create your ticket -->' $receptor
 		echo 'Enter username or email address'
 		read asunto 
 		clear
 		
-		echo 'Saint Jean -->' $remitente
-		echo 'Welcome to Saint Jean Lotto, please create your ticket -->' $receptor
+		echo 'Fils Polos -->' $remitente
+		echo 'Welcome to Fils Polos Lotto, please create your ticket -->' $receptor
 		echo 'Enter username or email address -->' $asunto
 		echo 'Incorrect username tries to hack the system'
 		read mensaje
 		clear
 		
-		echo 'Saint Jean -->' $remitente
-		echo 'Welcome to Saint Jean Lotto, please create your ticket -->' $receptor
+		echo 'Fils Polos -->' $remitente
+		echo 'Welcome to Fils Polos Lotto, please create your ticket -->' $receptor
 		echo 'Enter username or email address -->' $asunto
 		echo 'Incorrect username tries to hack the system -->'$mensaje
 		echo '¿Your username is incorrect the process failed? [y/n]' 
@@ -51,9 +51,9 @@ clear
 menuPrincipal(){
 clear
 	
-echo -e '\e[92mWelcome '
+echo -e '\e[92mWELCOME'
 echo ''
-echo 'Welcome to SS7 press y continue'
+echo -To SS7 press y continue'
 read opcion
 case $opcion in 
 
